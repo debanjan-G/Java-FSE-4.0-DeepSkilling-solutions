@@ -1,3 +1,5 @@
+package Code;
+
 public class PdfDocument implements Document {
     @Override
     public String getContent() {

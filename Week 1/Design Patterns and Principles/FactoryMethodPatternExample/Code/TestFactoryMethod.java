@@ -1,3 +1,5 @@
+package Code;
+
 public class TestFactoryMethod {
     public static void main(String[] args) {
         DocumentFactory wordFactory = new WordDocumentFactory();

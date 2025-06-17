@@ -1,3 +1,5 @@
+package Code;
+
 public class WordDocument implements Document {
     @Override
     public String getContent() {

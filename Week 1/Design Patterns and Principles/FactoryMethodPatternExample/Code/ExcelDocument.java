@@ -1,3 +1,5 @@
+package Code;
+
 public class ExcelDocument implements Document {
     @Override
     public String getContent() {

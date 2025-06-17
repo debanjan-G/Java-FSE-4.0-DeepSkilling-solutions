@@ -1,3 +1,5 @@
+package Code;
+
 public class PdfDocumentFactory extends DocumentFactory {
     @Override
     public Document createDocument() {
