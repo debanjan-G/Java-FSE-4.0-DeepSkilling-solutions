@@ -45,11 +45,7 @@ for (int i = 0; i < periods; i++) {
 ```
 
 
-#### 3. Memoization
+#### 2. Memoization
 Store previously calculated results to avoid redundant computations when the same calculations are performed multiple times.
 
-### Recommendation:
-- Use recursion for educational purposes and when periods are small (< 100)
-- Use iterative approach for large-scale production systems
-- Use mathematical formulas for simple compound interest calculations
 
