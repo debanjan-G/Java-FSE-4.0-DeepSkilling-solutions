@@ -5,12 +5,9 @@
          http://www.springframework.org/schema/beans
          https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- Define the repository bean -->
-    <bean id="bookRepository" class="com.library.repository.BookRepository" />
+    <!-- Repository bean -->
+    <bean id="bookRepository" class="com.library.repository.BookRepository"/>
 
-    <!-- Define the service bean and inject the repository -->
-    <bean id="bookService" class="com.library.service.BookService">
-        <property name="repository" ref="bookRepository" />
-    </bean>
-
+    <!-- Service bean (no injection here—Exercise 1 wires manually) -->
+    <bean id="bookService" class="com.library.service.BookService"/>
 </beans>
